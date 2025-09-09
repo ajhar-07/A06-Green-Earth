@@ -163,7 +163,7 @@ const displayModal = (plant) => {
   modal.className = "modal modal-bottom sm:modal-middle";
 
   modal.innerHTML = `
-    <div class="modal-box md:w-[420px] w-[390px] mx-auto overflow-hidden p-5">
+    <div class="modal-box md:w-[390px] w-[380px] mx-auto overflow-hidden p-5">
       <h3 class="text-lg font-bold">${plant.name?plant.name:"not available"}</h3>
       <img src="${plant.image}" alt="${plant.name}" class="w-full h-[250px] mt-1 mb-1">
       <p><span class="font-semibold">Category:</span> ${plant.category?plant.category:"not available"}</p>
