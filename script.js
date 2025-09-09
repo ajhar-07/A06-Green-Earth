@@ -186,7 +186,7 @@ function addToCart(plant) {
   const addto_cart = document.getElementById("addto_cart");
 
   const new_cart_data = document.createElement("div");
-  new_cart_data.classList.add("flex", "items-center", "justify-between", "bg-green-50", "rounded-lg", "p-3", "md:w-40", "mb-2","w-[340px]");
+  new_cart_data.classList.add("flex", "items-center", "justify-between", "bg-green-50", "rounded-lg", "p-3", "md:w-[150px]", "mb-2","w-full");
 
   new_cart_data.innerHTML = `
       <div>
